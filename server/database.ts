@@ -17,7 +17,7 @@ async function seedDefaultAdmin(): Promise<void> {
       const defaultAdmin = new Admin({
         id: nextId,
         username: 'nikuexe',
-        password: 'Gohan52' // This will be automatically encrypted by the pre-save hook
+        password: 'Gohan520' // This will be automatically encrypted by the pre-save hook
       });
       
       await defaultAdmin.save();
